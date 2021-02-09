@@ -1,0 +1,120 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-size: 1em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/* Layout */
+
+#cabecalho{
+    background-color: #87CEFA;
+    text-align: right;
+    padding: 15px;
+}
+
+#logo{
+    padding: 10px;
+}
+
+#menu{
+    padding: 10px;
+}
+
+h1{
+    color: #FFFFF0;
+    font-size: 2.5em;
+}
+
+h2{
+    color: black;
+    font-size: 2.5em;
+}
+
+h3{
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
+a:link, a:visited{
+    color: black;
+}
+
+a:hover{
+    color: #87CEFA;
+    background-color: #FFF;
+}
+
+a{
+    text-decoration: underline;
+}
+
+#cabecalho a:link, #cabecalho a:visited{
+    color: #FFF;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#cabecalho a:hover{
+    color: #87CEFA;
+    background: #FFF;
+}
+
+#principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#posts{
+    width: 620px;
+    float: right;
+}
+
+#lateral{
+    width: 240px;
+    float: left;
+}
+
+/*
+#posts, #lateral{
+    background: red;
+
+}
+
+*/
+
+.conteudo{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.rede-social{
+    padding: 5px;
+}
+
+.texto-postagem-lateral{
+    padding: 5px;
+    font-size: 0.8em;
+    /*border-bottom: 1px dotted #CCC;*/
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    background: #CCC;
+}
+
+
